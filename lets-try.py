@@ -1,7 +1,7 @@
 from manim import *
 import numpy as np
 #https://github.com/visual-x/manim-projects/blob/main/2021/TrigFunc-Parameter-a.py
-class DiscretSin(Scene):
+class DiscreteSin(Scene):
     def construct(self):
         self.x_min=0
         self.x_max=3*np.pi
